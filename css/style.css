@@ -1,3 +1,33 @@
 html {
-    background-color: khaki;
+
+        /* color schemes */
+        --lightFontColor: #d88d71;
+        --darkFontColor: black;
+        --darkBackgroundColor:#8f9d73;
+        --lightBackgroundColor:#e2ded0;
+
+
+
+        background-color: var(--lightBackgroundColor);
+}
+h1{
+    font-size: 2rem;
+    text-align: center;
+    margin: 30px;
+    color: var(--lightFontColor);
+}
+nav{
+    margin: 20px;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: var(--darkBackgroundColor);
+    padding: 15px;
+}
+nav a{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    color: blue;
+
 }
