@@ -13,4 +13,6 @@ Inside a document.addEventListener('DOMContentLoaded', (event) => { }) statement
 write a javascript program which listens for when each of the navbar buttons are clicked, and displays the relevant section, and hides the others.
 hint: for example, use document.getElementById('sunset'), sunset.style.display = 'none'; sunset.style.display = 'flex';
 
+Now, in the index.html file, add a dropdown menu to your titleButton using:
+
 Also inside the DOMContentLoaded statement, write an addEventListener which will change the <h1> title ... to be continued
