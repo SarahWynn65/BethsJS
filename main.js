@@ -46,4 +46,4 @@ document.addEventListener('DOMContentLoaded', (event) => {
         childrenSection.style.display = "none";
         pondSection.style.display = "flex";
     });
-})
+});
